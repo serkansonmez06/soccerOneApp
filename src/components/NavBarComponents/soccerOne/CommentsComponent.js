@@ -18,15 +18,15 @@ const CommentsComponent = () => {
   return (
     <div
       className="d-flex justify-content-center"
-      style={{ height: "100vh", backgroundColor: "#f5d3b3" }}
+      style={{ minHeight: "100vh", backgroundColor: "#f5d3b3" }}
     >
       <div>
         <h3 style={{ marginTop: "60px" }}>What users think about us!</h3>
         {data.map((item, key) => (
           <div key={key} className="container">
-            <div className="row border border-primary">
+            <div className="row ">
               <div
-                className="row d-flex justify-content-center border border-success"
+                className="row d-flex justify-content-center "
                 style={{ width: "80px" }}
               >
                 <div className="col" style={{ width: "10px" }}>
@@ -38,7 +38,7 @@ const CommentsComponent = () => {
                 </div>
               </div>
 
-              <div className="col border border-danger">
+              <div className="col ">
                 <p
                   style={{
                     marginLeft: "15px",
@@ -69,7 +69,7 @@ const CommentsComponent = () => {
                   {moment(item.date).format("LT")}
                 </span>
               </div>
-              <div className="col border border-danger">
+              <div className="col">
                 <p>" {item.comment} "</p>
               </div>
               <hr />

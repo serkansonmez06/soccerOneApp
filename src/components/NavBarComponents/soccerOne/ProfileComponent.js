@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProfileComponent = () => {
-  return <div>Profile</div>;
+  return <div style={{ minHeight: "100vh" }}>Profile</div>;
 };
 
 export default ProfileComponent;

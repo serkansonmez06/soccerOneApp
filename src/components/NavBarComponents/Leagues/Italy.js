@@ -9,7 +9,7 @@ const Italy = () => {
   const getDatat = async () => {
     await axios
       .get(
-        "https://apiv2.allsportsapi.com/football/?&met=Topscorers&leagueId=207&APIkey=352d0aae96e3a4bb970dddca2cb8ed2851ce56f17dc0b14e0764c03b03db8ef5"
+        "https://apiv2.allsportsapi.com/football/?met=Topscorers&leagueId=207&APIkey=c6934c58fbacf10be4d035169eaf4e5198e3b47384fd07acc490fa7d075b66a0"
       )
       .then((respose) => {
         setDataTopScorer(respose.data.result);
@@ -24,7 +24,7 @@ const Italy = () => {
   const getData = async () => {
     await axios
       .get(
-        "https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=207&APIkey=352d0aae96e3a4bb970dddca2cb8ed2851ce56f17dc0b14e0764c03b03db8ef5"
+        "https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=207&APIkey=c6934c58fbacf10be4d035169eaf4e5198e3b47384fd07acc490fa7d075b66a0"
       )
       .then((respose) => {
         setDataStanding(respose.data.result.total);
@@ -39,7 +39,7 @@ const Italy = () => {
   return (
     <div
       className="d-flex justify-content-center"
-      style={{ backgroundColor: "#7554ae" }}
+      style={{ backgroundColor: "#7554ae", minHeight: "100vh" }}
     >
       <div
         style={{
@@ -112,7 +112,7 @@ const Italy = () => {
           >
             <div style={{ marginLeft: "50px" }}>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Serie_a_2021.svg/225px-Serie_a_2021.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Logo_Serie_A_TIM_2021.svg/240px-Logo_Serie_A_TIM_2021.svg.png"
                 height={"90px"}
                 alt="Premier"
               />
@@ -169,7 +169,7 @@ const Italy = () => {
           >
             <div style={{ marginLeft: "40px" }}>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Serie_a_2021.svg/225px-Serie_a_2021.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Logo_Serie_A_TIM_2021.svg/240px-Logo_Serie_A_TIM_2021.svg.png"
                 height={"90px"}
                 alt="Premier"
               />

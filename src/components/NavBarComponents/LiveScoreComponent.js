@@ -7,11 +7,11 @@ const LiveScoreComponent = () => {
   const getData = () => {
     axios
       .get(
-        "https://apiv2.allsportsapi.com/football/?met=Livescore&APIkey=352d0aae96e3a4bb970dddca2cb8ed2851ce56f17dc0b14e0764c03b03db8ef5"
+        "https://apiv2.allsportsapi.com/football/?met=Livescore&APIkey=c6934c58fbacf10be4d035169eaf4e5198e3b47384fd07acc490fa7d075b66a0"
       )
       .then((respose) => {
         setData(respose.data.result);
-        // console.log(respose.data.result);
+        console.log(respose.data.result);
       })
       .catch((err) => console.log(err));
   };
@@ -26,7 +26,7 @@ const LiveScoreComponent = () => {
   return (
     <div
       className="d-flex justify-content-center"
-      style={{ backgroundColor: "red" }}
+      style={{ backgroundColor: "red", minHeight: "100vh" }}
     >
       <div>
         <div

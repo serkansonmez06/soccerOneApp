@@ -9,7 +9,7 @@ const Turkey = () => {
   const getDatat = async () => {
     await axios
       .get(
-        "https://apiv2.allsportsapi.com/football/?&met=Topscorers&leagueId=322&APIkey=352d0aae96e3a4bb970dddca2cb8ed2851ce56f17dc0b14e0764c03b03db8ef5"
+        "https://apiv2.allsportsapi.com/football/?&met=Topscorers&leagueId=322&APIkey=c6934c58fbacf10be4d035169eaf4e5198e3b47384fd07acc490fa7d075b66a0"
       )
       .then((respose) => {
         setDataTopScorer(respose.data.result);
@@ -24,7 +24,7 @@ const Turkey = () => {
   const getData = async () => {
     await axios
       .get(
-        "https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=322&APIkey=352d0aae96e3a4bb970dddca2cb8ed2851ce56f17dc0b14e0764c03b03db8ef5"
+        "https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=322&APIkey=c6934c58fbacf10be4d035169eaf4e5198e3b47384fd07acc490fa7d075b66a0"
       )
       .then((respose) => {
         setDataStanding(respose.data.result.total);
@@ -39,7 +39,7 @@ const Turkey = () => {
   return (
     <div
       className="d-flex justify-content-center"
-      style={{ backgroundColor: "#7554ae" }}
+      style={{ backgroundColor: "#7554ae", minHeight: "100vh" }}
     >
       <div
         style={{
