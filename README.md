@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#React.JS(frontend)- Java-Sprinboot-MySQL(backend)
+
+-> SoccerOne is livescore application. User will create account and log in to system. User is able to see top scorer and standing of selected countries ( Spain, England, Italy, Germany, France and Turkey's) soccer leagues. 
+
+-> User can follow live scores in any league around the world in livescore window. 
+
+-> User can watch highligh of selected matches. when user click on highlight, app will navigate to 3rd party website. 
+-> User will be able read what people said about socceroneapp.
+
+-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -11,60 +20,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="965" alt="SoccerOne2" src="https://user-images.githubusercontent.com/73310717/197910196-98db2e41-bf31-44cb-b5fb-b249fcc2edf4.png">
+<img width="947" alt="soccerOne3" src="https://user-images.githubusercontent.com/73310717/197910197-807904e9-c14d-4a6b-8ce0-92a6c7ef150d.png">
+<img width="947" alt="soccerOne4" src="https://user-images.githubusercontent.com/73310717/197910199-968662c7-37ce-4bc1-b095-9c41f9e95177.png">
+<img width="949" alt="soccerOne5" src="https://user-images.githubusercontent.com/73310717/197910201-b21c9a11-f6b2-4a62-a715-a38145f1e375.png">
+<img width="943" alt="soccerOne6" src="https://user-images.githubusercontent.com/73310717/197910206-24f0aa9c-4db6-4c3a-8b05-ae1f19dbfa0f.png">
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="950" alt="soccerOne1" src="https://user-images.githubusercontent.com/73310717/197910193-92fa2e56-749b-4802-adc3-f7bc14a00c9a.png">
